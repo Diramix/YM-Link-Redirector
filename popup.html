@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Yandex Music Link Redirector</title>
-  </head>
-  <body>
-    <h3>Yandex Music Link Redirector</h3>
-    <p>Это расширение автоматически перенаправляет ссылки на Яндекс Музыку.</p>
-  </body>
+<html>
+<head>
+  <title>Yandex Music Link Redirector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="women" class="women"></div>
+  <div class="redirector_icon"></div>
+  <div class="main_info_container">
+      <div class="redirector_title">YM Link Redirector</div>
+      <div class="developer">By Diramix</div>
+  </div>
+
+  <div class="description_container">
+    <div class="description_title">Description</div>
+    <div class="description">
+      This extension redirects links from music.yandex.ru on yandexmusic://
+    </div>
+  </div>
+
+  <button id="redirectBtn">Redirect Link</button>
+
+  <div class="version">v1.0.0</div>
+
+  <script src="popup.js"></script>
+</body>
 </html>

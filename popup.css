@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    user-select: none;
+    width: 450px;
+    height: 280px;
+    background: linear-gradient(
+        -90deg,
+        #000000 0%,
+        #060330 100%
+    );
+}
+
+.women {
+    position: fixed;
+    background-image: url('./assets/women.png');
+    right: 0;
+    bottom: 0;
+    width: 180px;
+    height: 350px;
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.redirector_icon {
+    position: fixed;
+    transform: rotate(-5deg);
+    top: 10px;
+    left: 10px;
+    width: 75px;
+    height: 75px;
+    background-image: url('./icon.png');
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.main_info_container {
+    position: fixed;
+    top: 18px;
+    left: 100px;
+}
+
+.redirector_title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.developer {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: oblique;
+}
+
+.description_container {
+    position: fixed;
+    top: 95px;
+    color: #fff;
+    background: #0005;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 135px;
+    left: 10px;
+}
+
+.description_title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.description {
+    padding-top: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.version {
+    position: fixed;
+    left: 10px;
+    bottom: 4px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+[id="redirectBtn"] {
+    display: none;
+}

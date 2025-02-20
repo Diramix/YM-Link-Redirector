@@ -1,17 +1,23 @@
 {
-    "manifest_version": 2,
-    "name": "Yandex Music Link Redirector",
-    "description": "Redirects manually opened Yandex Music links to yandexmusic://",
-    "version": "1.0",
-    "permissions": [
-      "webRequest",
-      "webRequestBlocking",
-      "tabs",
-      "*://music.yandex.ru/*"
-    ],
-    "background": {
-      "scripts": ["background.js"],
-      "persistent": true
-    }
+  "manifest_version": 2,
+  "name": "YM Link Redirector",
+  "description": "Redirects manually opened Yandex Music links to yandexmusic://",
+  "version": "1.0.0",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "*://music.yandex.ru/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
   }
-  
+}
